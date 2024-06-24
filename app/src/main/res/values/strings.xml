@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MarkoPoloAndroid</string>
+
+    <!-- Add the filter_options string resource -->
+    <string name="filter_options">Filter Options</string>
+
+    <!-- Add the search button text -->
+    <string name="search_button_text">Search</string>
+
+    <!-- Add hints for the EditText fields -->
+    <string name="hint_search_title">Enter title</string>
+    <string name="hint_search_category">Enter category</string>
+
+    <!-- Spinner options array -->
+    <string-array name="filter_options_array">
+        <item>Title</item>
+        <item>Category</item>
+        <item>Description</item>
+        <item>Location</item>
+    </string-array>
+</resources>

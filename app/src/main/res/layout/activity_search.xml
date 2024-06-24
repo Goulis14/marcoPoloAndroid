@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Search Title Field -->
+    <EditText
+        android:id="@+id/etSearchTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_search_title"
+        android:inputType="text"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Search Category Field -->
+    <EditText
+        android:id="@+id/etSearchCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_search_category"
+        android:inputType="text"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Filter Options (Spinner Example) -->
+    <Spinner
+        android:id="@+id/spinnerFilterOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/filter_options"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Search Button -->
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search_button_text"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
